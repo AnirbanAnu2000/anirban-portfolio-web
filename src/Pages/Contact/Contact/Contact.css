@@ -1,0 +1,11 @@
+.contact-part {
+  background-color: #e6f2f7;
+}
+
+@media only screen and (max-width:640px) {  
+
+  .contact-heading {
+    font-size: 40px !important;
+  }
+  
+}

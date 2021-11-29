@@ -1,27 +1,12 @@
 .main-navigation {
-  background-image: linear-gradient(to bottom, #000, #111);
+  background-image: linear-gradient(to bottom, #00090d, #00090d);
   padding-top: 20px;
   padding-bottom: 20px;
+  border-bottom: 3px solid #021e29;
 }
 
 .main-navigation-container {
-  position: relative;
-}
-
-.login-user-menu {
-  position: absolute;
-  bottom: -65px;
-  right: 15px;
-  z-index: 99;
-  background-color: #000;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  line-height: 15px;
-}
-
-.login-user-menu ol li a {
-  color: #fff;
+  position: relative; 
 }
 
 .navbar-link {
@@ -41,20 +26,14 @@
 .navbar-link:hover {
   color: #fff;
   background-color: transparent;
-  box-shadow: 7px 7px 5px 0px rgb(0, 0, 0);
-}
-
-.brand-logo span {
-  font-family: 'Italianno', cursive;
-  font-size: 22px;
-  font-weight: 700;
+  box-shadow: 7px 7px 5px 0px #222;
 }
 
 @media only screen and (max-width:640px) {
   
-  .brand-logo {
+  /* .brand-logo {
     margin-bottom: 20px;
-  }
+  } */
 
   .navbar-link {
       text-align: center;

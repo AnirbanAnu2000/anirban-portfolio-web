@@ -28,7 +28,7 @@ const HomePageBanner = () => {
           <Row className="">
             <Col lg={12} className="">  
               <div className="text-center">
-                <h1 className="banner-heading text-light">Hello I am Anirban Barua</h1>
+                <h1 className="banner-heading text-light mb-4">Hello I am Anirban Barua</h1>
                 <h3 className="text-white mb-5">A Professional Web Developer</h3>
                 <Button onClick={download} variant="primary" size="lg">Download Resume <i class="fas fa-download"></i></Button>
               </div>
