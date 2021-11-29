@@ -26,30 +26,18 @@
 .navbar-link:hover {
   color: #fff;
   background-color: transparent;
-  box-shadow: 7px 7px 5px 0px #222;
+  box-shadow: 7px 7px 5px 0px #444;
 }
 
 @media only screen and (max-width:640px) {
-  
-  /* .brand-logo {
-    margin-bottom: 20px;
-  } */
 
   .navbar-link {
       text-align: center;
   }
 
-  .user-name {
-    margin-bottom: 10px;
-  }
-
-  .login-user-menu {
-    bottom: -85px;
-  }
-
-  .login-user-menu ol li a {
-    display: inline-block;
-    margin-bottom: 5px;
+  .main-navigation-container .navbar-toggler .navbar-toggler-icon {
+    border: 3px solid rgb(36, 107, 212);
+    background-color: #fff;
   }
 
 }

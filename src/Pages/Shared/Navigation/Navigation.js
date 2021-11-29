@@ -13,10 +13,10 @@ const Navigation = () => {
 
   return (
     <div>
-      {/* navigation part start */} 
+      {/* navigation part start */}  
       <Navbar expand="lg" className="main-navigation w-100">
         <Container className="main-navigation-container">
-          <Navbar.Brand href="/home" className="brand-logo"><h4 className="text-white fw-bold">Anirban</h4></Navbar.Brand>
+          <Navbar.Brand href="/home" className="brand-logo"><h4 className="text-white fw-bold">Anirban-Portfolio</h4></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className="brand-bg mx-auto mb-3" />
               <Navbar.Collapse id="basic-navbar-nav">
               

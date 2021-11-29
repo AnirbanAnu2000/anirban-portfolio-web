@@ -40,4 +40,4 @@ const HomePageBanner = () => {
   );
 };
 
-export default HomePageBanner;
+export default HomePageBanner; 

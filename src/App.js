@@ -6,6 +6,7 @@ import Contact from './Pages/Contact/Contact/Contact';
 import Projects from './Pages/Projects/Projects';
 import About from './Pages/About/About';
 import Services from './Pages/Services/Services';
+import NotFound from './Pages/NotFound/NotFound';
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </BrowserRouter>

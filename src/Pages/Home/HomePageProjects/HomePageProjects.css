@@ -11,3 +11,11 @@
 .project-short-detail {
   padding-left: 30px;
 }
+
+@media only screen and (max-width:640px) {
+  
+  .project-short-detail {
+    padding-right: 15px;
+  }
+
+}
