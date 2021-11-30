@@ -24,7 +24,7 @@ const Navigation = () => {
                   <NavLink activeStyle={activeStyle} className="navbar-link" to="/home">Home</NavLink>
                   <NavLink activeStyle={activeStyle} className="navbar-link" to="/about">About</NavLink>
                   <NavLink activeStyle={activeStyle} className="navbar-link" to="/projects">Projects</NavLink>
-                  <NavLink activeStyle={activeStyle} className="navbar-link" to="/services">Services</NavLink>
+                  <NavLink activeStyle={activeStyle} className="navbar-link" to="/blog">Blog</NavLink>
                   <NavLink activeStyle={activeStyle} className="navbar-link" to="/contact">Contact</NavLink>
                 
               </Nav>

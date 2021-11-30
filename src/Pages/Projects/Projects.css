@@ -1,0 +1,35 @@
+.project-img-main {
+  /* border: 2px solid #0d6efd; */
+  border-radius: 4px;
+  /* padding: 5px; */
+}
+
+.projects-heading {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 15px;
+  display: inline-block;
+  border-bottom: 3px solid #0d6efd;
+}
+
+.project-name {
+  border: 5px solid #0d6efd;
+  background-color: #000;
+}
+
+.project-view img {
+  height: 300px;
+  border: 2px solid #0d6efd;
+}
+
+.project-short-detail {
+  padding-left: 30px;
+}
+
+@media only screen and (max-width:640px) {
+  
+  .project-short-detail {
+    padding-right: 15px;
+  }
+
+}

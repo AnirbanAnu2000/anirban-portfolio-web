@@ -24,7 +24,7 @@ const Contact = () => {
       <Navigation></Navigation>
         <div className="contact-part">
           <Container className="border-top border-1 border-primary">
-          <h1 className="fw-bold brand-color text-center mt-5 mb-4 contact-heading text-primary" style={{fontSize:"50px"}}>Contact Us</h1>
+          <h1 className="fw-bold brand-color text-center mt-5 mb-4 contact-heading text-primary" style={{fontSize:"50px"}}>Contact With Me</h1>
           <Row className="justify-content-center">
             <Col lg={8} className="pb-5">
               <Form onSubmit={sendEmail}>

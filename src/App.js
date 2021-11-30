@@ -5,7 +5,7 @@ import Home from './Pages/Home/Home/Home';
 import Contact from './Pages/Contact/Contact/Contact';
 import Projects from './Pages/Projects/Projects';
 import About from './Pages/About/About';
-import Services from './Pages/Services/Services';
+import Blog from './Pages/Blog/Blog';
 import NotFound from './Pages/NotFound/NotFound';
 
 
@@ -26,8 +26,8 @@ function App() {
           <Route path="/projects">
             <Projects></Projects>
           </Route>
-          <Route path="/services">
-            <Services></Services>
+          <Route path="/blog">
+            <Blog></Blog>
           </Route>
           <Route path="/contact">
             <Contact></Contact>

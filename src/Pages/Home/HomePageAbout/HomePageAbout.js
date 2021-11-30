@@ -19,7 +19,7 @@ const HomePageAbout = () => {
             </div>
           </Col>
         </Row>
-        </Container>
+      </Container>
     </div>
   );
 };
