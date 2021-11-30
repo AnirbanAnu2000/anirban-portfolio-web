@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div>
       <Navigation></Navigation>
-      <Container className="pb-5 border-bottom border-1 border-primary mb-5">
+      <Container className="pb-2 border-bottom border-1 border-primary mb-5">
         <h1 className="text-center mb-5 mt-5 text-primary projects-heading">My All Projects</h1>
         <Row id="comfort-car-palace">
           <Col lg={12} className="mt-3 mb-5 text-primary project-name pt-3 pb-2 text-center">
@@ -33,6 +33,9 @@ const Projects = () => {
             <ul>
               <li>Order buttons of products part in home page & explore page & dashboard navbar(top of the home page) are private, if one user logged in then he/she can visit.</li>
               <li>In the dashboard uses nested routing, where manage & explore products, manage all orders, add products/explore as well as make admin options can see only who is an admin. </li>
+              <li>There too many options here you can get choose as comfortable car</li>
+              <li>To get the wholesale price you must buy at least 10 cars</li>
+              <li>From this site you can get original spare parts which are rare than other sellers</li>
               <li>Uses: Client side-React app, react bootstrap, firebase for authentication, react hook form, react router dom v5, font awesome cdn.  Server side- express, mongodb, node.js.</li>
             </ul>
           </Col>
@@ -57,10 +60,12 @@ const Projects = () => {
             <a href="https://github.com/AnirbanAnu2000/classic-tourism-park-web2" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github client side code link</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
 
             <a href="https://github.com/AnirbanAnu2000/classic-tourism-park-server2" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github server side code link</a>
-            <h5>It is a tourism & travel website, at a glance about it</h5>
+            <h5>It is a tourism & travel website, below are details</h5>
             <ul>
               <li>Order buttons of services part in home page is private, if one user logged in then he/she can visit.</li>
               <li>After logged in a user can see some options Add Service, Manage Services, Manage Orders & My orders.</li>
+              <li>It can be use to offering tour package by which one can get suitable tour package to enjoy.</li>
+              <li>From this website one can get more information about any destination of tour package which also help him/her to choose a tour service.</li>
               <li>Uses: Client side-React app, react bootstrap, firebase for authentication, react hook form, react router dom v5, font awesome cdn.  Server side- express, mongodb, node.js.</li>
             </ul>
           </Col>
@@ -88,11 +93,13 @@ const Projects = () => {
             <ul>
               <li>Details buttons of services part in home page are private, if one user logged in then he/she can visit.</li>
               <li>After logged in a user can see his/her name on the top navigation</li>
+              <li>If you are looking for the best medical service, you are in the right place</li>
+              <li>We Provide the highest level of satisfaction care & services to our patients. Building a healthy environment that supports development for the community.</li>
+              <li>Choosing child care is an important decision – it sets the stage for healthy growth and development. Find a regulated child care that's provided by us.</li>
               <li>Uses: React app, react bootstrap, react router dom v5, font awesome cdn</li>
             </ul>
           </Col>
         </Row>
-        <button className="btn btn-primary btn-lg d-block mx-auto fw-bold">Load More</button>
       </Container>
       <Footer></Footer>
     </div>
