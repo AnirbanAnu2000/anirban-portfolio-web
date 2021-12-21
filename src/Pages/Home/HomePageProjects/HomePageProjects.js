@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './HomePageProjects.css';
 
@@ -15,7 +15,7 @@ const HomePageProjects = () => {
           </Col>
           <Col lg={7} className="project-short-detail py-5">
             <h3>Comfort Car Palace</h3>
-            <a href="https://comfort-car-palace2.web.app/" style={{textDecoration:"none",fontWeight:"700",fontSize:"18px"}}>Go To Live Website</a>
+            <a href="https://comfort-car-palace2.web.app/" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"18px"}}>Go To Live Website</a>
             <h5>It is a car dealer website, at a glance about it</h5>
             <ul>
               <li>All order buttons dashboard menu(top of the home page) are private.</li>
@@ -32,7 +32,7 @@ const HomePageProjects = () => {
           </Col>
           <Col lg={7} className="project-short-detail py-5">
             <h3>Classic Tourism Park</h3>
-            <a href="https://classic-tourism-park-6ab7e.web.app/" style={{textDecoration:"none",fontWeight:"700",fontSize:"18px"}}>Go To Live Website</a>
+            <a href="https://classic-tourism-park-6ab7e.web.app/" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"18px"}}>Go To Live Website</a>
             <h5>It is a tourism & travel website, at a glance about it</h5>
             <ul>
               <li>Order buttons are private.</li>
@@ -49,7 +49,7 @@ const HomePageProjects = () => {
           </Col>
           <Col lg={7} className="project-short-detail py-5">
             <h3>Decent Healthcare</h3>
-            <a href="https://decent-healthcare2.web.app/" style={{textDecoration:"none",fontWeight:"700",fontSize:"18px"}}>Go To Live Website</a>
+            <a href="https://decent-healthcare2.web.app/" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"18px"}}>Go To Live Website</a>
             <h5>It is healthcare website, at a glance about it</h5>
             <ul>
               <li>Details buttons of services part in home page are private, if one user logged in then he/she can visit.</li>

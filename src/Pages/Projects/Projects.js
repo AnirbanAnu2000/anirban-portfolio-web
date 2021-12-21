@@ -24,11 +24,11 @@ const Projects = () => {
             <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/portfolio/projects/car-sm3.png" className="w-100 project-img-main" alt="" />
           </Col>
           <Col lg={12} className="project-short-detail py-5">
-            <a href="https://comfort-car-palace2.web.app/" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Go To Live Website</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
+            <a href="https://comfort-car-palace2.web.app/" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Go To Live Website</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
 
-            <a href="https://github.com/AnirbanAnu2000/comfort-car-palace-web2" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github client side code link</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
+            <a href="https://github.com/AnirbanAnu2000/comfort-car-palace-web2" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github client side code link</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
 
-            <a href="https://github.com/AnirbanAnu2000/comfort-car-palace-server2" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github server side code link</a>
+            <a href="https://github.com/AnirbanAnu2000/comfort-car-palace-server2" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github server side code link</a>
             <h5 className="my-3">It is a car dealer website, below are details</h5>
             <ul>
               <li>Order buttons of products part in home page & explore page & dashboard navbar(top of the home page) are private, if one user logged in then he/she can visit.</li>
@@ -55,11 +55,11 @@ const Projects = () => {
             <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/portfolio/projects/tour-sm3.png" className="w-100 project-img-main" alt="" />
           </Col>
           <Col lg={12} className="project-short-detail py-5">
-            <a href="https://classic-tourism-park-6ab7e.web.app/" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Go To Live Website</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
+            <a href="https://classic-tourism-park-6ab7e.web.app/" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Go To Live Website</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
 
-            <a href="https://github.com/AnirbanAnu2000/classic-tourism-park-web2" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github client side code link</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
+            <a href="https://github.com/AnirbanAnu2000/classic-tourism-park-web2" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github client side code link</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
 
-            <a href="https://github.com/AnirbanAnu2000/classic-tourism-park-server2" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github server side code link</a>
+            <a href="https://github.com/AnirbanAnu2000/classic-tourism-park-server2" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github server side code link</a>
             <h5>It is a tourism & travel website, below are details</h5>
             <ul>
               <li>Order buttons of services part in home page is private, if one user logged in then he/she can visit.</li>
@@ -85,9 +85,9 @@ const Projects = () => {
             <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/portfolio/projects/health-sm3.png" className="w-100 project-img-main" alt="" />
           </Col>
           <Col lg={12} className="project-short-detail py-5">
-            <a href="https://decent-healthcare2.web.app/" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Go To Live Website</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
+            <a href="https://decent-healthcare2.web.app/" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Go To Live Website</a> <i class="fas fa-grip-lines-vertical text-primary"></i> &nbsp; 
 
-            <a href="https://github.com/AnirbanAnu2000/decent-healthcare--public" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github client side code link</a>
+            <a href="https://github.com/AnirbanAnu2000/decent-healthcare--public" target="_blank" rel="noreferrer" style={{textDecoration:"none",fontWeight:"700",fontSize:"16px"}}>Github client side code link</a>
 
             <h5 className="my-3">It is healthcare website, below are details</h5>
             <ul>
