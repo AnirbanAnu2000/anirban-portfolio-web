@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div>
       <Navigation></Navigation>
-      <h1 className="text-center text-primary mb-5">Blog page content will comming soon, thanks.</h1>
+      <h1 className="text-center text-primary mt-5 pt-5">Blog page content will comming soon, thanks.</h1>
       {/*<div className="container my-5">
         <h1 className="text-center text-primary mb-5">Blogs</h1>
         <div className="row justify-content-center">
