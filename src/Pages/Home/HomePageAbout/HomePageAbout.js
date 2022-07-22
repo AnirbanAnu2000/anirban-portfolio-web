@@ -8,7 +8,7 @@ const HomePageAbout = () => {
       <Container className="pt-5 border-bottom border-1 border-primary pb-4">
         <Row>
           <Col lg={6} className="py-5 order-lg-0 order-1">
-            <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/portfolio/about.jpg" alt="About Us" className="w-100 p-3" style={{border:"10px solid #0078a6"}} />
+            <img src="https://raw.githubusercontent.com/AnirbanAnu2000/img-storage/main/portfolio/about1.gif" alt="About Us" className="w-100 p-3" style={{border:"10px solid #0078a6"}} />
           </Col>
           <Col lg={6} className="d-flex align-items-center order-lg-1 order-0">
             <div className="p-4 home-about-right-content">
