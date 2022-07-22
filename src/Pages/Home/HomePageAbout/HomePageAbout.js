@@ -12,7 +12,7 @@ const HomePageAbout = () => {
           </Col>
           <Col lg={6} className="d-flex align-items-center order-lg-1 order-0">
             <div className="p-4 home-about-right-content">
-              <h2 className="mb-4 text-primary">LET’S INTRODUCE<br /> ABOUT MYSELF</h2>
+              <h2 className="mb-4 text-primary">LET’S INTRODUCE ---<br /> ABOUT MYSELF</h2>
               <h4 className="brand-color mb-4 fw-bold">Welcome To My Website</h4>
               <p className="mb-5">Hi! I am Anirban Barua, a full stack web developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web developer it's near to one year. I enjoy creating beautifully designed as well as make dynamic that website and functional websites.</p>
               <Button variant="primary" className="fw-bold">Read More <i className="fas fa-angle-right"></i></Button>
